@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- -- browser chrome",
+    "recordDashboardTest": "npm run test --record --key 798cee35-0798-4193-a1e6-8334566b3ef9 --reporter mochawesome",
+    "greenCartTest": "npm run test -- --spec \"cypress/integration/examples/Greencart/*\"   ",
+    "cypress:open": "cypress open"
+  },
+  "author": "laxmipriya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.9.1",
+    "cypress-xpath": "1.6.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-wait-until": "^1.7.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "defaultCommandTimeout": 150000,
+  "pageLoadTimeout": 150000,
+  "projectId": "arn15o",
+
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "chromeWebSecurity": false
+}
